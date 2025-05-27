@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         mainCtaButton.addEventListener('click', function () {
             console.log('Main CTA button clicked');
             // Placeholder for GTM dataLayer push
-            // dataLayer.push({ 'event': 'cta_click', 'cta_text': 'สนใจทดลองใช้เลย!' });
+             dataLayer.push({ 'event': 'cta_click', 'cta_text': 'สนใจทดลองใช้เลย!' });
         });
     }
 
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const featureTitle = this.closest('.card').querySelector('.card-title').textContent;
             console.log(`Feature button clicked: ${featureId} - ${featureTitle}`);
             // Placeholder for GTM dataLayer push
-            // dataLayer.push({ 'event': 'feature_click', 'feature_id': featureId, 'feature_title': featureTitle });
+             dataLayer.push({ 'event': 'feature_click', 'feature_id': featureId, 'feature_title': featureTitle });
         });
     });
 
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
         privacyButton.addEventListener('click', function () {
             console.log('Privacy policy accepted');
             // Placeholder for GTM dataLayer push
-            // dataLayer.push({ 'event': 'privacy_accepted' });
+             dataLayer.push({ 'event': 'privacy_accepted' });
         });
     }
 

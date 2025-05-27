@@ -29,7 +29,9 @@ cd GTMDemo
 dotnet run
 ```
 
-4. เปิดเบราว์เซอร์และไปที่ `https://localhost:7128` หรือ `http://localhost:5289`
+4. เปิดเบราว์เซอร์และไปที่ `http://localhost:5229`
+
+5. รัน ngrok ngrok http http://localhost:5229
 
 ## การตั้งค่า Google Tag Manager
 
